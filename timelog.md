@@ -38,3 +38,8 @@
 - _0.5 hour_ initialised project repository
 - _05. hour_ set up project management / issue tracking
 - _1 hour_ made issues for migrating to new stack
+
+### 23 Sep 2023
+
+- _1 hour_ set up basic API
+- _0.5 hour_ restructured project directory and set up additional Git repositories
