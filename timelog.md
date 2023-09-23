@@ -42,4 +42,6 @@
 ### 23 Sep 2023
 
 - _1 hour_ set up basic API
+- _1 hour_ tried to solve matchingproblems package installation issue
 - _0.5 hour_ restructured project directory and set up additional Git repositories
+- _0.5 hour_ set up web app boilerplate
