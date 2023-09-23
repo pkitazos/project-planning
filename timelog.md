@@ -32,3 +32,9 @@
 ### 21 Sep 2023
 
 - _4 hours_ outlined high-level changes to be made to the existing project and formed proposal for new tech-stack
+
+### 22 Sep 2023
+
+- _0.5 hour_ initialised project repository
+- _05. hour_ set up project management / issue tracking
+- _1 hour_ made issues for migrating to new stack
