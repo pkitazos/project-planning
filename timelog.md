@@ -57,3 +57,4 @@
 - _2 hours_ added ORM and basic CRUD operations to site
 - _2 hour_ polished some UI components
 - _1 hour_ added Auth middleware and started implementing different user tiers
+- _1.5 hour_ started implementaion of conditional ui rendering based on user clearance
