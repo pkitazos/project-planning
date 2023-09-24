@@ -36,10 +36,24 @@
 ### 22 Sep 2023
 
 - _0.5 hour_ initialised project repository
-- _05. hour_ set up project management / issue tracking
+- _0.5 hour_ set up project management / issue tracking
 - _1 hour_ made issues for migrating to new stack
 
 ### 23 Sep 2023
 
 - _1 hour_ set up basic API
+- _1 hour_ tried to solve matchingproblems package installation issue
 - _0.5 hour_ restructured project directory and set up additional Git repositories
+- _0.5 hour_ set up web app boilerplate
+- _1 hour_ configured development environment (editor plugins, packages, deployment, etc.)
+- _0.5 hour_ generated prisma schema from old database
+- _3 hours_ built basic ui for publically accessible pages
+
+### 24 Sep 2023
+
+- _1 hour_ redesigned and normalised database and made new ER diagram
+- _1 hour_ re-wrote prisma prisma to match redesigned ER diagram
+- _1 hour_ fixed some minor ui bugs and refactored files
+- _2 hours_ added ORM and basic CRUD operations to site
+- _2 hour_ polished some UI components
+- _1 hour_ added Auth middleware and started implementing different user tiers
