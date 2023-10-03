@@ -58,3 +58,45 @@
 - _2 hour_ polished some UI components
 - _1 hour_ added Auth middleware and started implementing different user tiers
 - _1.5 hour_ started implementaion of conditional ui rendering based on user clearance
+
+### 25 Sep 2023
+
+- _2 hours_ added site-wide user clearance context for conditionally rendered ui based on user role
+- _1 hour_ added basic version of preference management
+
+### 26 Sep 2023
+
+- _2 hours_ created comprehensive list of actions grouped by user role to make requirements ranking easier
+- _0.5 hour_ added linting and refactored project structure for improved dx
+
+### 27 Sep 2023
+
+- _2 hours_ worked on documentation of current progress and changed to be made to platform for next meeting (new sitemap, and second draft of ER diagram)
+
+### 28 Sep 2023
+
+- _2 hours_ worked on making shortlist and preference selection from project page more intuitive
+
+### 29 Sep 2023
+
+- _2 hours_ redesigned initial ER diagram to match updated requirements
+- _1 hour_ designed new auth flow
+
+### 30 Sep 2023
+
+- _0.5 hour_ created new models for Auth management
+- _4 hours_ read up on NextAuth to be used as new Authorisation library (watched some tutorials and read docs)
+
+### 01 Oct 2023
+
+- _3 hours_ worked on dev-panel page for testing, running population script, managing user access and testing
+- _2 hours_ started adding NextAuth to application
+
+### 02 Oct 2023
+
+- _2 hours_ worked on second draft of population script for dev and testing
+- _4 hours_ made significant progress on RBAC: added protected routes, setup redirect and added middleware to catch unauthorised users and redirect them to unprotected route
+
+### 03 Oct 2023
+
+- _5 hours_ rewrote population script for db and set up db reset on dev-panel
