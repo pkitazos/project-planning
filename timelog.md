@@ -95,8 +95,21 @@
 ### 02 Oct 2023
 
 - _2 hours_ worked on second draft of population script for dev and testing
-- _4 hours_ made significant progress on RBAC: added protected routes, setup redirect and added middleware to catch unauthorised users and redirect them to unprotected route
+- _4 hours_ made significant progress on Role-Based Access Control (RBAC): added protected routes, setup redirect and added middleware to catch unauthorised users and redirect them to unprotected route
 
 ### 03 Oct 2023
 
-- _5 hours_ rewrote population script for db and set up db reset on dev-panel
+- _5 hours_ re-wrote population script for db and set up db reset on dev-panel
+
+### 04 Oct 2023
+
+- _3 hours_ finished RBAC implementation
+- _1 hour_ made significant progress on role-based UI rendering
+
+### 09 Oct 2023
+
+- _1 hour_ prioritised all features to be added using the MoSCoW framework
+
+### 10 Oct 2023
+
+- _1.5 hours_ drafted basic wireframes for Admin Panel pages and worked out basic Allocation Group, Sub-Group, and Instance creation flow
