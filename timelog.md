@@ -112,4 +112,42 @@
 
 ### 10 Oct 2023
 
-- _1.5 hours_ drafted basic wireframes for Admin Panel pages and worked out basic Allocation Group, Sub-Group, and Instance creation flow
+- _1.5 hours_ drafted basic wireframes for Admin Panel and worked out basic Allocation Group, Sub-Group, and Instance creation flow
+
+### 11 Oct
+
+- _1 hour_ worked on details of Allocation Group, Sub-Group, and Instance creation flow
+
+### 13 Oct 2023
+
+- _2 hours_ built basic version of wireframes as interactive UI
+
+### 15 Oct 2023
+
+- _3 hours_ finalised low fidelity wireframes for Admin Panel Allocation Group, Allocation Sub-Group and Allocation Instance pages
+
+### 16 Oct
+
+- _4 hours_ built interactive UI skeleteon based on revised low fidelity wireframes
+
+### 17 Oct 2023
+
+- _4 hours_ re-designed low fidelity Admin Panel wireframes
+
+### 18 Oct
+
+- _1 hour_ begun designing low fidelity wireframes for Supervisor Account page
+- _1 hour_ met with Dr Graham McDonald to get better understanding of requirements
+
+### 20 Oct
+
+- _2 hours_ planned out how to implement keeping track of active instance for each user
+
+### 23 Oct
+
+- _2 hours_ re-wrote population script endpoints to debug non-deterministic behaviour bug
+- _1 hour_ refactored database schema
+
+### 24 Oct
+
+- _3 hours_ re-wrote population script as separate scripts rather than api endpoints
