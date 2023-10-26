@@ -151,3 +151,12 @@
 ### 24 Oct
 
 - _3 hours_ re-wrote population script as separate scripts rather than api endpoints
+
+### 25 Oct
+
+- _3 hours_ forked matchingproblems package to add/modify methods to be able to run solver without need for command-line arguments and textfile
+
+### 26 Oct
+
+- _3 hours_ finished method modification to allow data to be passed from json rather than command-line arguments and textfile
+- _1 hour_ started testing reaching hitting Python server endpoints from the web app
