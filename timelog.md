@@ -57,3 +57,138 @@
 - _2 hours_ added ORM and basic CRUD operations to site
 - _2 hour_ polished some UI components
 - _1 hour_ added Auth middleware and started implementing different user tiers
+- _1.5 hour_ started implementaion of conditional ui rendering based on user clearance
+
+### 25 Sep 2023
+
+- _2 hours_ added site-wide user clearance context for conditionally rendered ui based on user role
+- _1 hour_ added basic version of preference management
+
+### 26 Sep 2023
+
+- _2 hours_ created comprehensive list of actions grouped by user role to make requirements ranking easier
+- _0.5 hour_ added linting and refactored project structure for improved dx
+
+### 27 Sep 2023
+
+- _2 hours_ worked on documentation of current progress and changed to be made to platform for next meeting (new sitemap, and second draft of ER diagram)
+
+### 28 Sep 2023
+
+- _2 hours_ worked on making shortlist and preference selection from project page more intuitive
+
+### 29 Sep 2023
+
+- _2 hours_ redesigned initial ER diagram to match updated requirements
+- _1 hour_ designed new auth flow
+
+### 30 Sep 2023
+
+- _0.5 hour_ created new models for Auth management
+- _4 hours_ read up on NextAuth to be used as new Authorisation library (watched some tutorials and read docs)
+
+### 01 Oct 2023
+
+- _3 hours_ worked on dev-panel page for testing, running population script, managing user access and testing
+- _2 hours_ started adding NextAuth to application
+
+### 02 Oct 2023
+
+- _2 hours_ worked on second draft of population script for dev and testing
+- _4 hours_ made significant progress on Role-Based Access Control (RBAC): added protected routes, setup redirect and added middleware to catch unauthorised users and redirect them to unprotected route
+
+### 03 Oct 2023
+
+- _5 hours_ re-wrote population script for db and set up db reset on dev-panel
+
+### 04 Oct 2023
+
+- _3 hours_ finished RBAC implementation
+- _1 hour_ made significant progress on role-based UI rendering
+
+### 09 Oct 2023
+
+- _1 hour_ prioritised all features to be added using the MoSCoW framework
+
+### 10 Oct 2023
+
+- _1.5 hours_ drafted basic wireframes for Admin Panel and worked out basic Allocation Group, Sub-Group, and Instance creation flow
+
+### 11 Oct
+
+- _1 hour_ worked on details of Allocation Group, Sub-Group, and Instance creation flow
+
+### 13 Oct 2023
+
+- _2 hours_ built basic version of wireframes as interactive UI
+
+### 15 Oct 2023
+
+- _3 hours_ finalised low fidelity wireframes for Admin Panel Allocation Group, Allocation Sub-Group and Allocation Instance pages
+
+### 16 Oct
+
+- _4 hours_ built interactive UI skeleteon based on revised low fidelity wireframes
+
+### 17 Oct 2023
+
+- _4 hours_ re-designed low fidelity Admin Panel wireframes
+
+### 18 Oct
+
+- _1 hour_ begun designing low fidelity wireframes for Supervisor Account page
+- _1 hour_ met with Dr Graham McDonald to get better understanding of requirements
+
+### 20 Oct
+
+- _2 hours_ planned out how to implement keeping track of active instance for each user
+
+### 23 Oct
+
+- _2 hours_ re-wrote population script endpoints to debug non-deterministic behaviour bug
+- _1 hour_ refactored database schema
+
+### 24 Oct
+
+- _3 hours_ re-wrote population script as separate scripts rather than api endpoints
+
+### 25 Oct
+
+- _3 hours_ forked matchingproblems package to add/modify methods to be able to run solver without need for command-line arguments and textfile
+
+### 26 Oct
+
+- _3 hours_ finished method modification to allow data to be passed from json rather than command-line arguments and textfile
+- _1 hour_ started testing reaching hitting Python server endpoints from the web app
+
+### 31 Oct
+
+- _1 hour_ worked on project admin, merging all branches and project folder restructuring
+
+### 04 Nov
+
+- _2 hours_ added tRPC to project allowing for typesafety in api endpoints
+- _3 hours_ started converting existing procedures and db crud operations to tRPC routers and endpoints
+
+### 10 Oct
+
+- _3 hours_ separated user router to student and supervisors, and started working on student router
+
+### 11 Oct
+
+- _2 hours_ refactored app directory page structure to reflect new site structure
+
+### 12 Oct
+
+- _2 hours_ worked on group and sub-group creation form validation
+- _4 hours_ worked on group router and sub-group router procedures
+
+### 13 Oct
+
+- _3 hours_ worked on allocation instance creation form validation
+- _2 hours_ started schema refactor
+
+### 14 Oct
+
+- _4 hours_ finished schema refactor
+- _3 hours_ updated database seed script to include all information required to run a matching
