@@ -160,3 +160,35 @@
 
 - _3 hours_ finished method modification to allow data to be passed from json rather than command-line arguments and textfile
 - _1 hour_ started testing reaching hitting Python server endpoints from the web app
+
+### 31 Oct
+
+- _1 hour_ worked on project admin, merging all branches and project folder restructuring
+
+### 04 Nov
+
+- _2 hours_ added tRPC to project allowing for typesafety in api endpoints
+- _3 hours_ started converting existing procedures and db crud operations to tRPC routers and endpoints
+
+### 10 Oct
+
+- _3 hours_ separated user router to student and supervisors, and started working on student router
+
+### 11 Oct
+
+- _2 hours_ refactored app directory page structure to reflect new site structure
+
+### 12 Oct
+
+- _2 hours_ worked on group and sub-group creation form validation
+- _4 hours_ worked on group router and sub-group router procedures
+
+### 13 Oct
+
+- _3 hours_ worked on allocation instance creation form validation
+- _2 hours_ started schema refactor
+
+### 14 Oct
+
+- _4 hours_ finished schema refactor
+- _3 hours_ updated database seed script to include all information required to run a matching
