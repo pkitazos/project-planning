@@ -170,25 +170,66 @@
 - _2 hours_ added tRPC to project allowing for typesafety in api endpoints
 - _3 hours_ started converting existing procedures and db crud operations to tRPC routers and endpoints
 
-### 10 Oct
+### 10 Nov
 
 - _3 hours_ separated user router to student and supervisors, and started working on student router
 
-### 11 Oct
+### 11 Nov
 
 - _2 hours_ refactored app directory page structure to reflect new site structure
 
-### 12 Oct
+### 12 Nov
 
 - _2 hours_ worked on group and sub-group creation form validation
 - _4 hours_ worked on group router and sub-group router procedures
 
-### 13 Oct
+### 13 Nov
 
 - _3 hours_ worked on allocation instance creation form validation
 - _2 hours_ started schema refactor
 
-### 14 Oct
+### 14 Nov
 
 - _4 hours_ finished schema refactor
 - _3 hours_ updated database seed script to include all information required to run a matching
+
+### 15 Nov
+
+- _3 hours_ worked on basic communication between matching-server and web-app
+
+### 16 Nov
+
+- _2 hours_ worked on formatting data on web-app to be able to send them to the matching-server in the correct shape
+
+### 17 Nov
+
+- _3 hours_ finished collection and formatting of data from the database on the web-app before making request to matching-server for an allocation
+- _3 hours_ created method on python model to output matching result as a JSON to be sent back to the web-app
+
+### 18 Nov
+
+- _2 hours_ finished python model and worked on parsing JSON response into an object that can be used to update the admin-panel ui
+- _2 hours_ worked on basic table to display matching data summary (size, weight, profile)
+
+### 1 Dec
+
+- _2 hours_ made summary tables responsive and created admin-panel tab to display detailed results of a matching
+
+### 2 Dec
+
+- _5 hours_ moved data formatting to matching-server: web-app now collects and sends data including string IDs to matching server, where information is put into a hash-table for converting to-and-from integers used by the matching package
+
+### 3 Dec
+
+- _3 hours_ displayed detailed matching and rank of projects for each algorithm in the dedicated details tab, finished off changes to generous, greedy and minimum-cost algorithms
+- _1 hour_ started working on stage control, tabs-available change depending on active stage, but no way to change stage from ui
+
+### 11 Dec
+
+- _0.5 hour_ updated greedy-generous algorithm on server to work with updated data representation and return matching data formatted correctly
+- _2 hours_ changed admin-panel tabs to be individual pages and started work on the stage control functionality
+
+### 12 Dec
+
+- _1 hour_ finished stage control, now persists between stages and responsively updates sidebar
+- _3 hours_ implemented allocation-matching selection, updating database to reflect selection
