@@ -20,7 +20,7 @@ Week-by-week plan for the whole project. Update this as you go along.
 - **Week 9** worked on communication between the matching-server and web-app + made adjustments to matchingproblems package
 - **Week 10** minimal work due to deadlines
 - **Week 11** refactored matching-server to format the request and response data started + started working on stage control
-- **Week 12 [PROJECT WEEK]** minimal work due to exam
+- **Week 12 [EXAM WEEK]** minimal work due to exam
 - **Week 13 [PROJECT WEEK]** finish off stage control and matching selection + submit status report
 
 ## Winter break
@@ -29,14 +29,14 @@ Week-by-week plan for the whole project. Update this as you go along.
 
 (expected plan for semester 2)
 
-- **Week 13** stage-based access control
-- **Week 14** Student/Supervisor user flows
-- **Week 15** creation of test-suite
-- **Week 16** instance forking
-- **Week 17** focus on UX/UI; ensure interface is accessible and design is consistent
-- **Week 19** create and run evaluation surveys
-- **Week 20** analyse findings and evaluate application
-- **Week 21** begin dissertation writing
-- **Week 22** work on dissertation
-- **Week 23 [TERM ENDS]** finalise dissertation and work on project presentation
-- **Week 24** Dissertation submission deadline and presentations.
+- **Week 17** stage-based access control
+- **Week 18** Student/Supervisor user flows
+- **Week 19** creation of test-suite
+- **Week 20** instance forking
+- **Week 21** focus on UX/UI; ensure interface is accessible and design is consistent
+- **Week 22** create and run evaluation surveys
+- **Week 23** analyse findings and evaluate application
+- **Week 24** begin dissertation writing
+- **Week 25** work on dissertation
+- **Week 26 [TERM ENDS]** finalise dissertation and work on project presentation
+- **Week 27** Dissertation submission deadline and presentations.
