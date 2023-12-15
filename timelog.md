@@ -229,6 +229,8 @@
 
 ## Week 10
 
+no work done due to deadlines
+
 ## Week 11
 
 ### 1 Dec
@@ -245,6 +247,8 @@
 - _1 hour_ started working on stage control, tabs-available change depending on active stage, but no way to change stage from ui
 
 ## Week 12
+
+no work done due to exam
 
 ## Week 13
 
