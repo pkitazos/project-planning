@@ -9,3 +9,4 @@ Everything relating to admin work surrounding the development of the level 4 pro
 - Timelog
 - High-level plan to tackle the project
 - Status Report
+- Meeting minutes
