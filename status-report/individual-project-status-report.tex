@@ -14,11 +14,11 @@
 \subsection{Proposal}\label{proposal}
 
 \subsubsection{Motivation}\label{motivation}
-% \emph{{[}Clearly motivate the purpose of your project; why someone would care about what you are doing{]}}
-This project, as the title suggests, revolves around the process of building a web app to manage instances of student-project allocations. Student-project allocation involves fairly allocating the projects available to all the students in a particular group, while taking into account their preferences over said projects as well the supervisor capacity constraints. This is a process undertaken in educational institutions all around the world, all with unique variations and constraints applied to this problem. That is why it's critical that the web app is flexible enough to allow for any variations and constraints to be respected, while keeping the allocation process simple and straightforward.
+% Clearly motivate the purpose of your project; why someone would care about what you are doing
+This project, as the title suggests, revolves around the process of building a web app to manage instances of student-project allocations. Student-project allocation involves fairly allocating the projects available to all the students in a particular group, while taking into account their preferences over said projects as well the project and supervisor capacity constraints. This is a process undertaken in educational institutions all around the world, all with unique variations and constraints applied to this problem. That is why it's critical that the web app is flexible enough to allow for any variations and constraints to be respected, while keeping the allocation process simple and straightforward.
 
 \subsubsection{Aims}\label{aims}
-% \emph{{[}Clearly state what the project is intended to do. This should be something which is measurable; it should be possible to tell if you succeeded{]}}
+% Clearly state what the project is intended to do. This should be something which is measurable; it should be possible to tell if you succeeded
 The completed web app should be able to host the entire project allocation process; from project collection to publishing student-project allocations. The platform should allow for all critical parts of the allocation, for all three types of users:
 \begin{itemize}
     \item \textbf{students} can view all projects and submit a ranked preference list.
@@ -29,9 +29,9 @@ The completed web app should be able to host the entire project allocation proce
 
 \subsection{Progress}\label{progress}
 
-% \emph{{[}Briefly state your progress so far, as a bulleted list{]}}
+% Briefly state your progress so far, as a bulleted list
 \begin{itemize}
-    \item rebuilt existing web-app using modern web framework
+    \item rebuilt existing web-app using modern web framework (NextJS, Typescript, tRPC, TailwindCSS)
     \item performed requirements gathering and prioritisation
     \item modified database schema to capture new requirements
     \item created new sitemap and lo-fi wireframes for new pages
@@ -49,12 +49,12 @@ The completed web app should be able to host the entire project allocation proce
 \subsection{Problems and risks}\label{problems-and-risks}
 
 \subsubsection{Problems}\label{problems}
-% \emph{{[}What problems have you had so far, that have held up the project?{]}}
+% What problems have you had so far, that have held up the project?
 
 There have been a couple problems that kept re-appearing throughout the course of the semester. 
 \begin{itemize}
     \item The first problem to persist over several weeks was to do with seeding the database. Before learning about seeding scripts, I was attempting to populate the database via a custom dev page I built into the web app that allowed me to run several database mutations sequentially. Because of the volume of data I was trying to insert at once I was facing time-out issues that were non-deterministic. I rewrote the population script several times, before reaching the final version which is a node script I run separately to the web-app dev server. This has solved the non-determinism problem. 
-    \item The second problem I've had that has been slowing down progress is that I'm having to make changes to the database schema quite often. As I slowly work my way through the required features I identified, I'm discovering more restrictions or relationships that I need represented in my database. Changes to the schema however are expensive because my internal data-fetching API is very tightly coupled with my database ORM, so any time I update the schema I risk breaking some of my API endpoints. I've identified two possible solutions to this problem: 
+    \item The second problem I've had that has been slowing down progress is that I'm having to make changes to the database schema quite often. As I slowly work my way through the required features I identified, I'm discovering more restrictions or relationships that I need to be represented in my database. Changes to the schema however are expensive because my internal data-fetching API is very tightly coupled with my database ORM, so any time I update the schema I risk breaking some of my API endpoints. I've identified two possible solutions to this problem: 
     \begin{enumerate}
         \item creating a data-access layer between the database layer and my internal API. This way when I make any changes to my database schema I only need to worry about updating the database layer to reflect these changes. I won't need to manually test all my API endpoints to ensure that they still work. The API endpoints will depend on a fixed interface defined in my data-access layer.
         \item creating a test-suite to be ran after any database schema changes to ensure that the functionality of all my API endpoints remains intact.
@@ -65,29 +65,29 @@ There have been a couple problems that kept re-appearing throughout the course o
 
 \subsubsection{Risks}\label{risks}
 
-% \emph{{[}What problems do you foresee in the future and how will you mitigate them?{]}}
+% What problems do you foresee in the future and how will you mitigate them?
 There are two areas that may potentially cause problems in the next semester.
 \begin{itemize}
     \item The first one is to do with using the university single sign-on for user authentication, as I've not worked with OIDC before. I've been supplied with a document that explains how to set up a particular auth flow which I will study more thoroughly next semester in order to get authentication up and running.
-    \item The second problem is to do with creating a test-suite for the web-apps internal API. I haven't written unit or property tests for an application written in typescript before, so it would be difficult to determine how much time it's going to take away from the development of new features. I'm aware of a few testing frameworks that I plan to study in the second semester in order to help with the creation of my test-suite.
+    \item The second problem is to do with creating a test-suite for the web-apps internal API. I haven't written unit or property tests for an application written in Typescript before, so it would be difficult to determine how much time it's going to take away from the development of new features. I'm aware of a few testing frameworks that I plan to study in the second semester in order to help with the creation of my test-suite.
 \end{itemize}
 
 
 \subsection{Plan}\label{plan}
 
-% \emph{{[}Time plan, in roughly weekly to monthly blocks, up until submission week{]}}
+% Time plan, in roughly weekly to monthly blocks, up until submission week
 \begin{itemize}
-    \item \textbf{Week 13} stage-based access control
-    \item \textbf{Week 14} Student/Supervisor user flows
-    \item \textbf{Week 15} creation of test-suite
-    \item \textbf{Week 16} instance forking
-    \item \textbf{Week 17} focus on UX/UI; ensure interface is accessible and design is consistent
-    \item \textbf{Week 19} create and run evaluation surveys
-    \item \textbf{Week 20} analyse findings and evaluate application
-    \item \textbf{Week 21} begin dissertation writing
-    \item \textbf{Week 22} work on dissertation
-    \item \textbf{Week 23} finalise dissertation and work on project presentation
-    \item \textbf{Week 24} Dissertation submission deadline and presentations.
+    \item \textbf{Week 1} stage-based access control
+    \item \textbf{Week 2} Student/Supervisor user flows
+    \item \textbf{Week 3} creation of test-suite
+    \item \textbf{Week 4} instance forking
+    \item \textbf{Week 5} focus on UX/UI; ensure interface is accessible and design is consistent
+    \item \textbf{Week 6} create and run evaluation surveys
+    \item \textbf{Week 7} analyse findings and evaluate application
+    \item \textbf{Week 8} begin dissertation writing
+    \item \textbf{Week 9} work on dissertation
+    \item \textbf{Week 10} finalise dissertation and work on project presentation
+    \item \textbf{Week 11} Dissertation submission deadline and presentations.
 \end{itemize}
     
     
