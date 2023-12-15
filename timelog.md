@@ -59,6 +59,8 @@
 - _1 hour_ added Auth middleware and started implementing different user tiers
 - _1.5 hour_ started implementaion of conditional ui rendering based on user clearance
 
+## Week 2
+
 ### 25 Sep 2023
 
 - _2 hours_ added site-wide user clearance context for conditionally rendered ui based on user role
@@ -92,6 +94,8 @@
 - _3 hours_ worked on dev-panel page for testing, running population script, managing user access and testing
 - _2 hours_ started adding NextAuth to application
 
+## Week 3
+
 ### 02 Oct 2023
 
 - _2 hours_ worked on second draft of population script for dev and testing
@@ -105,6 +109,8 @@
 
 - _3 hours_ finished RBAC implementation
 - _1 hour_ made significant progress on role-based UI rendering
+
+## Week 4
 
 ### 09 Oct 2023
 
@@ -126,6 +132,8 @@
 
 - _3 hours_ finalised low fidelity wireframes for Admin Panel Allocation Group, Allocation Sub-Group and Allocation Instance pages
 
+## Week 5
+
 ### 16 Oct
 
 - _4 hours_ built interactive UI skeleteon based on revised low fidelity wireframes
@@ -143,6 +151,8 @@
 
 - _2 hours_ planned out how to implement keeping track of active instance for each user
 
+## Week 6
+
 ### 23 Oct
 
 - _2 hours_ re-wrote population script endpoints to debug non-deterministic behaviour bug
@@ -159,7 +169,9 @@
 ### 26 Oct
 
 - _3 hours_ finished method modification to allow data to be passed from json rather than command-line arguments and textfile
-- _1 hour_ started testing reaching hitting Python server endpoints from the web app
+- _1 hour_ started testing hitting matching-server endpoints from the web-app
+
+## Week 7
 
 ### 31 Oct
 
@@ -169,6 +181,8 @@
 
 - _2 hours_ added tRPC to project allowing for typesafety in api endpoints
 - _3 hours_ started converting existing procedures and db crud operations to tRPC routers and endpoints
+
+## Week 8
 
 ### 10 Nov
 
@@ -182,6 +196,8 @@
 
 - _2 hours_ worked on group and sub-group creation form validation
 - _4 hours_ worked on group router and sub-group router procedures
+
+## Week 9
 
 ### 13 Nov
 
@@ -211,22 +227,30 @@
 - _2 hours_ finished python model and worked on parsing JSON response into an object that can be used to update the admin-panel ui
 - _2 hours_ worked on basic table to display matching data summary (size, weight, profile)
 
+## Week 10
+
+## Week 11
+
 ### 1 Dec
 
 - _2 hours_ made summary tables responsive and created admin-panel tab to display detailed results of a matching
 
 ### 2 Dec
 
-- _5 hours_ moved data formatting to matching-server: web-app now collects and sends data including string IDs to matching server, where information is put into a hash-table for converting to-and-from integers used by the matching package
+- _5 hours_ moved data formatting to matching-server: web-app now collects and sends data including string IDs to matching-server, where information is put into a hash-table for converting to-and-from integers used by the matching package
 
 ### 3 Dec
 
 - _3 hours_ displayed detailed matching and rank of projects for each algorithm in the dedicated details tab, finished off changes to generous, greedy and minimum-cost algorithms
 - _1 hour_ started working on stage control, tabs-available change depending on active stage, but no way to change stage from ui
 
+## Week 12
+
+## Week 13
+
 ### 11 Dec
 
-- _0.5 hour_ updated greedy-generous algorithm on server to work with updated data representation and return matching data formatted correctly
+- _0.5 hour_ updated greedy-generous algorithm on matching-server to work with updated data representation and return matching data formatted correctly
 - _2 hours_ changed admin-panel tabs to be individual pages and started work on the stage control functionality
 
 ### 12 Dec
